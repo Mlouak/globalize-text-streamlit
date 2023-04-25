@@ -5,7 +5,7 @@ import os
 st.set_page_config(page_title="Globalize email", page_icon=":robot:")
 
 openai_api_key_input = os.environ.get("OPENAI_API_KEY")
-st.write(openai_api_key_input)
+#st.write(openai_api_key_input)
 
 
 template = """
